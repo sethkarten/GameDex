@@ -1,22 +1,30 @@
 # GameDex
 
-GameDex is a Windows application for capturing gameplay video and inputs for AI training.
+GameDex is a Windows and macOS application for capturing gameplay video and inputs for AI training.
 
 ## Download
 
-Download the latest installer from the [Releases](https://github.com/sethkarten/GameDex/releases/latest) page.
+Download the latest build from the [Releases](https://github.com/sethkarten/GameDex/releases/latest) page.
 
-Click on `GameDex_x.x.x_x64-setup.exe` to download.
+- **Windows:** click `GameDex_x.x.x_x64-setup.exe` to download the installer.
+- **macOS:** click `GameDex-macOS-unsigned.zip` to download the app. Requires **macOS 26.4 (Tahoe) or later**.
 
-## Install
+## Install (Windows)
 
 1. Run the downloaded `.exe` file
 2. If Windows SmartScreen appears, click "More info" → "Run anyway"
 3. Follow the installation prompts
 
+## Install (macOS)
+
+1. Unzip `GameDex-macOS-unsigned.zip` and move `GameDex.app` to your `Applications` folder
+2. The build is unsigned, so the first launch is blocked by Gatekeeper. Right-click the app → **Open** → **Open** to allow it
+3. Grant the permissions macOS asks for: **Screen & System Audio Recording** and **Accessibility / Input Monitoring**
+4. Quit and reopen GameDex after granting permissions
+
 ## First Launch
 
-1. Open GameDex from the Start Menu or Desktop shortcut
+1. Open GameDex from the Start Menu / Desktop shortcut (Windows) or Applications (macOS)
 2. Enter your **invite code** and a device name
 3. Click Register
 
